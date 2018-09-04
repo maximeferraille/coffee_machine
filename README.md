@@ -2,6 +2,6 @@
 
 - Azémard Elisabeth (Athos)
 - Duval Pauline (Aramis)
-- Ferraille Maxime
+- Ferraille Maxime (Porthos)
 - Schlosser Vincent (Dartagan)
 
