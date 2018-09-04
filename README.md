@@ -12,15 +12,14 @@ Arduino. Choisi pour avoir un rendu physique et non pas seulement une interface 
 
 ## Construction de l'algorithme
 
-### Mettre de l'argent
-1. $argent = argent + $entrée (1, 0.5, 0.2)
-2. Afficher $argent
+### Paiement de la boisson
+Pour ajouter de l'argent dans la machine, on appuie sur un bouton : 1€, 50c ou 20c. Chaque clic incrémente la valeur affichée sur l'écran LCD de l'Arduino.
+Une fois l'argent "inséré", on appuie sur le bouton de la boisson désirée. Si on n'a pas mis suffisamment d'argent, un message s'affiche sur l'écran LCD : "ajouter des pièces".
 
-### Servir boisson
-3. clic boisson (1, 2, 3 ou 4)
-4. récupération de l'objet sélectionné
-5. si objet.prix ≥ $argent, poursuivre
-    sinon, "ajouter des pièces".
-6. faire tomber le gobelet (LED)
-7. $argent = $prix - $argent
-8. afficher $argent ( = rendu de la monaie pendant que la boisson coule)
+### Service de la boisson
+Sinon, le gobelet tombe (LED qui s'allume). Des LEDs s'allument pendant un certain temps selon le type de boisson (café, chocolat), le liquide nécessaire à son élaboration (eau et/ou lait) et la durée de distribution (café long, court, etc.).
+
+### Rendu de la monnaie
+Le calcul est fait pour savoir si la monnaie "insérée" au départ excède le prix de la boisson ou non, auquel cas la monnaie à rendre s'affiche sur l'écran LCD, en même temps que la boisson est distribuée (c'est à dire que les LED de l'Arduino s'allument).
+
+
