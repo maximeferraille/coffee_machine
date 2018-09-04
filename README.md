@@ -40,4 +40,6 @@ Le calcul est fait pour savoir si la monnaie "insérée" au départ excède le p
 
 ### D - De l'algorithmie à la programmation
 1. Création des classes (Pauline)
-2. Traduction de l'algorithme en Arduino
+2. Déclaration des variables au bon type (Elisabeth)
+3. Traduction de l'algorithme en Arduino
+
