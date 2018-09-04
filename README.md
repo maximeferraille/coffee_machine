@@ -27,3 +27,7 @@ Le calcul est fait pour savoir si la monnaie "insérée" au départ excède le p
 
 ### Sucre & touillette
 À la fin de la distribution de la boisson, si la boisson est sucrée, une touillette tombe.
+
+
+- Voir l'algorithme dans le wiki
+
