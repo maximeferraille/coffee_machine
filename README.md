@@ -1,26 +1,22 @@
 # Coffee Machine - Les 3 Mousquetaires
 
+## Équipe
 - Azémard Elisabeth (Athos)
 - Duval Pauline (Aramis)
 - Ferraille Maxime (Porthos)
 - Schlosser Vincent (Dartagan)
 
 ## Environnement technique
-
 Arduino. Choisi pour avoir un rendu physique et non pas seulement une interface web.
 
-
 ## Répartition des tâches
-
 - Maxime : montage de l'Arduino
 - Pauline : Algorithme / Programmation
 - Vincent : Algorithme / Programmation
 - Elisabeth : Documentation / Algorithme
 
 ## Étapes
-
 ### A - Construction de l'algorithme
-
 #### Paiement de la boisson
 Pour ajouter de l'argent dans la machine, on appuie sur un bouton : 1€, 50c ou 20c. Chaque clic incrémente la valeur affichée sur l'écran LCD de l'Arduino.
 Une fois l'argent "inséré", on appuie sur le bouton de la boisson désirée. Si on n'a pas mis suffisamment d'argent, un message s'affiche sur l'écran LCD : "ajouter des pièces".
@@ -36,8 +32,7 @@ Le calcul est fait pour savoir si la monnaie "insérée" au départ excède le p
 
 #### Touillette
 À la fin de la distribution de la boisson, si la boisson est sucrée, une touillette tombe.
-
-- Voir l'algorithme dans le wiki
+-> Voir l'algorithme dans le wiki
 
 ### B - Montage de l'Arduino
 
