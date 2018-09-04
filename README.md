@@ -34,7 +34,7 @@ Si les conditions de paiement sont valides, le gobelet tombe (LED qui s'allume).
 #### Rendu de la monnaie
 Le calcul est fait pour savoir si la monnaie "insérée" au départ excède le prix de la boisson ou non, auquel cas la monnaie à rendre s'affiche sur l'écran LCD, en même temps que la boisson est distribuée (c'est à dire que les LED de l'Arduino s'allument).
 
-#### Sucre & touillette
+#### Touillette
 À la fin de la distribution de la boisson, si la boisson est sucrée, une touillette tombe.
 
 - Voir l'algorithme dans le wiki
@@ -44,6 +44,5 @@ Le calcul est fait pour savoir si la monnaie "insérée" au départ excède le p
 ### C - Reading the Manual - Formation express Arduino pour Pauline, Vincent et Elisabeth
 
 ### D - De l'algorithmie à la programmation
-1. Création des classes
-2. ...
-
+1. Création des classes (Pauline)
+2. Traduction de l'algorithme en Arduino
