@@ -38,21 +38,35 @@ Le calcul est fait pour savoir si la monnaie "insérée" au départ excède le p
 
 ### B - Montage de l'Arduino
 
-#### Idée de base
-Faire un bouton analogique pour sélectionner les boissons pour avoir plus de place pour d'autres composants. Mais impossible en raison de limitations matérielles.
+#### Idée de départ
+Faire un bouton analogique pour sélectionner les boissons pour avoir plus de place pour d'autres composants. Impossible à mettre en place en raison de limitations matérielles.
 
-{insérer schéma de montage}
+![schéma de l'idée de départ](./scheme_idea.png "Schéma de montage de l'idée de départ")
 
 #### Idée actuelle
 Chaque boisson a son propre bouton, ce qui limite le nombre de LED qu'il est possible de brancher.
-{insérer schéma de montage}
+![schéma de l'idée mise en place](./scheme_definitive.png "Schéma de montage mis en place")
 
-#### LEDs
-1 RGB
-1 Unie verte
+##### Matériel utilisé
+###### LEDs
+1 LED RGB pour indiquer :
+- quel type de solluble est versé au moment du service de la boisson
+        - chocolat -> JAUNE
+        - café -> VIOLET
+- quel liquide est ensuite ajouté 
+        - eau -> BLEU
+        - lait -> BLANC
+        - eau + lait -> ROSE
+
+1 LED de couleur unie verte pour indiquer :
+  - que la boisson est prête
 
 #### écran LCD + bouton analogique à 5 états pour ajouter de la monnaie
 permet l'affichage des informations au fur et à mesure de la commande
+- nom & prix de la boisson
+- touillette donnée : "Voici une touillette !" (signifie que la boisson est sucrée)
+- gobelet tombé : "Voici un gobelet !"
+- café prêt : "Servez-vous !"
 
 #### Boutons poussoirs
 -> Sélection de 3 boissons différentes
