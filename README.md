@@ -38,6 +38,26 @@ Le calcul est fait pour savoir si la monnaie "insérée" au départ excède le p
 
 ### B - Montage de l'Arduino
 
+#### Idée de base
+Faire un bouton analogique pour sélectionner les boissons pour avoir plus de place pour d'autres composants. Mais impossible en raison de limitations matérielles.
+
+{insérer schéma de montage}
+
+#### Idée actuelle
+Chaque boisson a son propre bouton, ce qui limite le nombre de LED qu'il est possible de brancher.
+{insérer schéma de montage}
+
+#### LEDs
+1 RGB
+1 Unie verte
+
+#### écran LCD + bouton analogique à 5 états pour ajouter de la monnaie
+permet l'affichage des informations au fur et à mesure de la commande
+
+#### Boutons poussoirs
+-> Sélection de 3 boissons différentes
+
+
 ### C - Reading the Manual - Formation express Arduino pour Pauline, Vincent et Elisabeth
 
 ### D - De l'algorithmie à la programmation
