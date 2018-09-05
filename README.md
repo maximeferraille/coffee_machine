@@ -51,8 +51,8 @@ Faire un bouton analogique pour sélectionner les boissons afin d'avoir plus de 
 Chaque boisson a son propre bouton, ce qui limite le nombre de LED qu'il est possible de brancher.
 ![schéma de l'idée mise en place](./scheme_definitive.png "Schéma de montage mis en place")
 
-##### Matériel utilisé
-###### LEDs
+#### Matériel utilisé
+##### LEDs
 1 LED RGB pour indiquer :
 - quel type de soluble est versé au moment du service de la boisson :
         - chocolat -> JAUNE
@@ -64,7 +64,7 @@ Chaque boisson a son propre bouton, ce qui limite le nombre de LED qu'il est pos
 
 1 LED verte pour indiquer que la boisson est prête.
 
-###### Écran LCD 
+##### Écran LCD 
 L'écran LCD permet l'affichage des informations au fur et à mesure de la commande :
 - La quantité de monnaie insérée dans la machine
 - La quantité de sucre sélectionnée le cas échéant
@@ -73,13 +73,13 @@ L'écran LCD permet l'affichage des informations au fur et à mesure de la comma
 - La touillette donnée après la fin de la distribution : "Voici une touillette !" (signifie que la boisson est sucrée)
 - café prêt : "Servez-vous !"
 
-###### Boutons poussoirs
+##### Boutons poussoirs
 Chaque bouton est associé à un objet de la classe "Boissons" :
 - Café court
 - Café au lait
 - Chocolat
 
-###### Bouton analogique
+##### Bouton analogique
 Le bouton analogique dispose de cinq états différents qui permettent l'ajout de "pièces" différentes (1€, 50c, 20c, 5c)
 
 ### C - Reading the Manual - Formation express Arduino pour Pauline, Vincent et Elisabeth
