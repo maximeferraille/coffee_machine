@@ -70,7 +70,10 @@ permet l'affichage des informations au fur et à mesure de la commande
 - café prêt : "Servez-vous !"
 
 #### Boutons poussoirs
--> Sélection de 3 boissons différentes
+Chaque bouton est associé à un objet de la classe "Boissons" :
+- Café court
+- Café au lait
+- Chocolat
 
 #### Bouton analogique
 Le bouton analogique dispose de cinq états différents qui permettent l'ajout de "pièces" différentes (1€, 50c, 20c, 5c)
@@ -79,5 +82,4 @@ Le bouton analogique dispose de cinq états différents qui permettent l'ajout d
 
 ### D - De l'algorithmie à la programmation
 1. Création des classes (Pauline)
-2. Déclaration des variables au bon type (Elisabeth)
-3. Traduction de l'algorithme en Arduino
+2. Traduction de l'algorithme en Arduino
