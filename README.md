@@ -62,7 +62,7 @@ Chaque boisson a son propre bouton, ce qui limite le nombre de LED qu'il est pos
         - lait -> BLANC
         - eau + lait -> ROSE
 
-1 LED de couleur unie verte pour indiquer : que la boisson est prête
+1 LED verte pour indiquer que la boisson est prête.
 
 ###### Écran LCD 
 L'écran LCD permet l'affichage des informations au fur et à mesure de la commande :
